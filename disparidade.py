@@ -14,6 +14,27 @@ st.title("🗺️ Análise de desenpenho no ENEN")
 st.markdown("Explore os dados de desempenho médio no ENEM com base na localização geográfica, densidade populacional e estrutura docente.")
 st.markdown("---")
 
+# Criando o bloco expansível principal
+with st.expander("📂 Sobre  o projeto", expanded=True):
+    
+    # Criando 3 colunas para os 3 cards
+    col1, col2, col3 = st.columns(3)
+    
+    # Card 1
+    with col1:
+        with st.container(border=True): # O border=True cria o visual de "card"
+            st.subheader("Objetivo do projeto")
+            st.write("O estudo analisa como as assimetrias na distribuição dos recursos escolares e a centralização urbana influenciam e comprometem a igualdade de oportunidades no Exame Nacional do Ensino Médio (ENEM) no estado da Bahia. Investigou-se até que ponto disparidades regionais e de infraestrutura atuam como barreiras estruturais de partida para os estudantes")
+            
+    # Card 2
+    with col2:
+        with st.container(border=True):
+            st.subheader("Autores")
+            st.write("Alice Poggi
+            Thais Aragão")
+
+st.markdown("---")
+
 # ---------------------------------------------------------------------------------------#
 #                   Funções de suporte e tratamento de dados
 # ---------------------------------------------------------------------------------------#
