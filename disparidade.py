@@ -30,8 +30,7 @@ with st.expander("📂 Sobre  o projeto", expanded=True):
     with col2:
         with st.container(border=True):
             st.subheader("Autores")
-            st.write("Alice Poggi 
-            Thais Aragão")
+            st.write("Alice Poggi e Thais Aragão")
 
 st.markdown("---")
 
