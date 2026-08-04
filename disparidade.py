@@ -10,6 +10,10 @@ st.set_page_config(
     layout="wide"
 )
 
+st.title("🗺️ Análise de desenpenho no ENEN")
+st.markdown("Explore os dados de desempenho médio no ENEM com base na localização geográfica, densidade populacional e estrutura docente.")
+st.markdown("---")
+
 # ---------------------------------------------------------------------------------------#
 #                   Funções de suporte e tratamento de dados
 # ---------------------------------------------------------------------------------------#
