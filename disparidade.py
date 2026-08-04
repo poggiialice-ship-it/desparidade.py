@@ -52,8 +52,8 @@ def plotScatterGraph(df: pd.DataFrame, x_col: str, y_col: str, x_label: str, y_l
 #                                 Interface Streamlit
 # ---------------------------------------------------------------------------------------#
 
-st.title("📊 Painel Interativo - Desempenho no ENEM")
-st.markdown("Análise temporal e relacional de indicadores educacionais e geográficos.")
+#st.title("📊 Painel Interativo - Desempenho no ENEM")
+#st.markdown("Análise temporal e relacional de indicadores educacionais e geográficos.")
 
 # Sidebar - Upload do Arquivo
 st.sidebar.header("Configurações")
